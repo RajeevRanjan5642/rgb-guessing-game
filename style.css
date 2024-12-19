@@ -13,13 +13,12 @@ body {
     margin: 1.66%;
     float: left;
     border-radius: 15%;
+    cursor:pointer;
     transition: background 0.8s;
     -webkit-transition: background 0.8s;
     -moz-transition: background 0.8s;
 }
-.square : hover{
-    cursor:pointer;
-}
+
 #container {
     max-width: 600px;
     margin: 25px auto;
@@ -56,6 +55,7 @@ button {
     color: hotpink;
     letter-spacing: 1px;
     font-size: 25px;
+    cursor:pointer;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
